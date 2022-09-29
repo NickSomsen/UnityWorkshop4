@@ -340,6 +340,33 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1070121397, guid: 7e905b273cd138a4bae2711802f6552a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 26.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070121397, guid: 7e905b273cd138a4bae2711802f6552a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -33.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070121397, guid: 7e905b273cd138a4bae2711802f6552a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3233468802863182398, guid: 7e905b273cd138a4bae2711802f6552a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3233468802863182398, guid: 7e905b273cd138a4bae2711802f6552a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -30.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3233468802863182398, guid: 7e905b273cd138a4bae2711802f6552a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.97
+      objectReference: {fileID: 0}
     - target: {fileID: 3473428618970369844, guid: 7e905b273cd138a4bae2711802f6552a,
         type: 3}
       propertyPath: bridgeHeight
@@ -349,6 +376,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673273162313473811, guid: 7e905b273cd138a4bae2711802f6552a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673273162313473811, guid: 7e905b273cd138a4bae2711802f6552a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673273162313473811, guid: 7e905b273cd138a4bae2711802f6552a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673273162313473811, guid: 7e905b273cd138a4bae2711802f6552a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 33.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673273162313473811, guid: 7e905b273cd138a4bae2711802f6552a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -31.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673273162313473811, guid: 7e905b273cd138a4bae2711802f6552a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673273162313473811, guid: 7e905b273cd138a4bae2711802f6552a,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8306694051303167441, guid: 7e905b273cd138a4bae2711802f6552a,
         type: 3}
@@ -505,7 +567,7 @@ PrefabInstance:
     - target: {fileID: 3155508115531007797, guid: f07dc22575dbf8a43a30d88b27c88edf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -7.96
       objectReference: {fileID: 0}
     - target: {fileID: 3155508115531007797, guid: f07dc22575dbf8a43a30d88b27c88edf,
         type: 3}
