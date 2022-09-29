@@ -7,6 +7,9 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody rb;
 
+    public Camera mainCamera;
+    public float rotationSpeed;
+
     public float speed;
     private float horizontalMovement;
     private float verticalMovement;
@@ -29,8 +32,11 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector3 movement = new Vector3(horizontalMovement, 0.0f, verticalMovement);
+        Vector3 movement = verticalMovement * mainCamera.transform.forward;
         rb.AddForce(movement * speed);
+
+        Vector3 movementHorizontal = horizontalMovement * mainCamera.transform.right;
+        rb.AddForce(movementHorizontal * speed);
 
         if (isJumpPressed && isGrounded)
         {

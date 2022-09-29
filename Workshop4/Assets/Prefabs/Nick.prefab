@@ -258,6 +258,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f94836b5d59f43f429c7e4bdbf1826bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  rotationSpeed: 0
   speed: 10
   jumpHeight: 7
 --- !u!1 &4635916919663464553
@@ -291,5 +293,5 @@ Transform:
   - {fileID: 750060340}
   - {fileID: 1070121397}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
